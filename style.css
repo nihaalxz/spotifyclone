@@ -1,0 +1,168 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: hsl(0, 0%, 0%);
+    font-family:arial;
+}
+.sidebar
+{
+    width: 300px;
+    background-color: rgb(30, 30, 30) ;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    padding: 10px;
+
+}
+.sidebar-nav,.sidebar-nav-box2
+{
+    background: rgb(43, 42, 42);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.sidebar-nav.logo
+{
+    width: 120px;
+}
+
+.sidebar-nav.logo img{
+    width: 100%;
+}
+
+.sidebar-nav ul
+{
+    list-style: none;
+}
+
+.sidebar-nav ul li
+{
+    padding:10px 20px;
+}
+
+.sidebar-nav ul li a
+{
+   text-decoration: none;
+   color:white;
+   font-size:16px;
+   font-weight: bold;
+}
+
+.library::after
+{
+    content: "+";
+    float: right;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.create-playlist
+{
+    background: rgb(118, 117, 117);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.spotify_logo:hover{
+    opacity: 0.6;
+}
+a:hover{
+    opacity: 0.6;
+}
+
+.sidebar-scroll
+{
+    height: 150px;
+    overflow-y: auto;
+}
+
+.sidebar-scroll::-webkit-scrollbar
+{
+    background: transparent;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb
+{
+    background: transparent;
+    width: 10px;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-thumb
+{
+    background: hsl(0, 0%, 26%);
+    width: 10px;
+}
+
+.create-playlist h4{
+    color: white;
+    font-size: 17px;
+}
+
+.create-playlist p{
+    color: white;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.create-playlist button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+}
+
+.privacy ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+.privacy ul{
+    list-style: none;
+}
+
+.privacy ul li
+{
+    padding-bottom: 5px;
+}
+.privacy{
+    padding: 0 12px;
+    margin-top: 30px;
+}
+.eng-btn
+{
+    margin-top: 3em;
+    border-radius: 20px;
+    width: 7.4em;
+    height: 3em; 
+    background: hsl(0, 0%, 26%);
+    color:white;
+    border: 0;  
+    outline: 0;
+    text-align: center;
+
+}
+.main-section
+{
+    margin-left: 300px;
+    background:grey;
+    height: 100vh;
+}
+.main-section .top-nav
+{
+    padding: 25px 30px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
