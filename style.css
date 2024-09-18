@@ -155,7 +155,7 @@ a:hover{
 .main-section
 {
     margin-left: 300px;
-    background:grey;
+    background:rgb(27, 27, 27);
     height: 100vh;
 }
 .main-section .top-nav
@@ -165,4 +165,85 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.main-section .top-nav .prev-btn button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.main-section .top-nav .prev-btn button i{
+    color: rgb(208, 204, 204);
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.top-nav .login-btn .sign-up
+{
+    color:hsl(0, 0%, 50%);
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 4.4em;
+    height: 1em;
+}
+
+.top-nav .login-btn .sign-up:hover
+{
+    color:white;
+}
+
+.top-nav .login-btn .login
+{
+    color:hwb(0 8% 92%);
+    font-size: 16px;
+    font-weight: 600;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 4em;
+    height: 2em;
+}
+.top-nav .login-btn .login:hover
+{
+    background-color:rgb(188, 186, 186);
+}
+
+.profile_pics
+{
+    height:120px;
+    width:120px;
+    border-radius: 100%;
+}
+
+.spotifyplaylist
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+}
+
+.mtxt
+{
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.stxt
+{
+    font-weight: 100;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+
+}
+
+.item img:hover
+{
+    opacity: 0.3;
+    
 }
