@@ -1,0 +1,83 @@
+/* *
+{
+    color:red;
+} */
+
+h2{
+    font-weight: bold;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.heading
+{
+    color:brown;
+}
+#para
+{
+   color:rgb(113, 38, 113);
+}
+
+.font
+{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div ~ p{
+    color:rgb(10, 88, 255);
+
+}
+
+input[type=password]
+{
+    background-color: rgb(255, 136, 136);
+
+}
+
+.subtn:hover
+{
+    background-color: rgb(136, 248, 136);
+    width: 25%;
+    height: 5vh;
+}
+
+.subtn:active
+{
+    background-color: rgb(20, 2, 97);
+    width: 25%;
+    height: 10vh;
+    color:white;
+}
+
+.box{
+    border: 2px solid red;
+    width: 200px;
+    height:100px;
+    padding: 10px;
+    margin-top:10px;
+    color:black;
+}
+
+.box:hover{
+    background-color: yellowgreen;
+}
+
+.emailid
+{
+    width:200px;
+    height:30px;
+}
+
+.emailid:valid{
+    background-color: rgb(14, 158, 1);
+}
+
+.emailid:invalid
+{
+    background-color: red;
+}
+
+::selection {
+    background-color: yellow;
+    color: rgb(222, 32, 32);
+  }
+  

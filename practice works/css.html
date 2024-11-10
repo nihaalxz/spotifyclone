@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!--CSS selectors-->
+
+    <!--universal selector (*)
+    applies to all elements
+    represented by using *
+    
+    -->
+
+    <!--element selector (element name)
+    applies to all specified elements
+    -->
+
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quas tempore, molestiae possimus cupiditate assumenda sequi vel, eveniet nulla pariatur ducimus quasi ullam quidem omnis itaque, autem odit rerum. Numquam.</p>
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+
+    <h3 class="heading font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, necessitatibus.</h3>
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+
+
+    <p>Paragraph 1</p>
+        <div>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <section>Paragraph 4</section>
+            <p>Paragraph 5</p>
+            <p>Paragraph 6</p>
+        </div>
+        <p>Paragraph 7</p>
+        <p>Paragraph 8</p>
+   
+
+
+
+
+    <!--id selector (#)
+    id selector is represented using #
+    it selects unique elements
+    in css id can be called by #id name
+    only one id is allowed on a single element
+    it has the highest priority
+    -->
+
+    <!--Class Selector (.)
+    We can select all elemnts within the class name
+    Multiple classes in the same element
+    same classname in multiple elements
+    multiple elements are given by using space ' '
+    
+    -->
+
+
+    <!--Grouping Selector (,)
+    We can select elements with multiple selectors
+    using the comma ,
+    -->
+
+    <!--Combinator Selector 
+
+    descendant selector ('space')
+    It selects all children of selected element 
+    that are children of specified element
+
+    child selector(>)
+    Select all elements of immediate children of a specified element
+
+    adjacent sibling selector(+)
+    Select an element that is immediately following specified element
+
+    General sibling selector(~)
+    Select all elements that are following specific element
+
+    -->
+
+    <!--Attribuite selectors ([attribuite="value"])
+    
+    
+    
+    -->
+    
+    <input type="email" required>
+    <input type="text" class="textin">     
+    <input type="password" required>
+
+
+    <!--Psuedo class
+
+    Psuedo class is used to define special state of an element
+
+
+    :hover
+
+    Applies styles when the user hovers over an element.
+
+    :active
+
+    Styles an element when it is being clicked or activated.
+
+    :focus
+
+    Styles an element when it gains focus (e.g., when a user clicks into an input field).
+
+    :checked
+
+    Applies styles to checkboxes or radio buttons that are checked
+
+    :disabled / :enabled
+
+    Styles elements based on whether they are disabled or enabled (commonly used with form elements).
+
+    :blank
+
+    The  CSS pseudo-class selects empty user input elements (e.g. <input> or <textarea>).
+
+    :has
+
+    With :has(), you can apply styles to an element depending on whether it contains specific child elements or elements that meet certain conditions.
+
+    :link
+
+    link only targets links that haven't been visited by the user.
+
+
+    :not()
+     Selects elements that do not match a certain selector.
+
+
+    :root
+
+     pseudo-class in CSS represents the highest-level or root element of a document. In HTML, this is always the
+
+    :visited
+
+    The :visited pseudo-class in CSS is used to style links that the user has already clicked and visited.
+
+    :nth-child()
+
+    Applies styles to elements based on their position in a parent container.
+
+    :valid
+
+    The :valid pseudo-class is applied to an input field when the value entered by the user meets the specified validation rules (such as a correctly formatted email or a required field being filled out)
+
+  :invalid
+  The :invalid pseudo-class is applied to an input field when the value does not meet the validation requirements (such as leaving a required field empty or entering an incorrectly formatted email address).
+
+
+    -->
+
+    <input type="submit" class="subtn">
+
+    <div class="box">
+        <p style="margin:0">Lorem ipsum dolor sit amet consectetur. Lorem, ipsum dolor.</p>
+        <input type="text" class="textin">
+        <input type="submit">
+    </div>
+<br>
+
+<form>
+    <label for="email">Email</label>
+    <input type="email" class="emailid" name="email">
+</form>
+    
+    <input type="submit">
+
+
+
+    <!--Psuedo classes
+
+
+    CSS Psuedo-Elements
+
+    ::before
+
+    The ::before pseudo-element allows you to insert content before the actual content of an element. 
+    It's often used for decorative purposes like adding icons, quotes, or other symbols before the content.
+
+    ::after
+
+    The ::after pseudo-element works similarly to ::before, but it inserts content after the element's content.
+
+
+    ::first-letter
+
+    The ::first-letter pseudo-element targets the first letter of the text inside an element.
+     It is often used for styling the first letter in paragraphs or headings (like in drop caps).
+
+    
+    ::first-line
+
+    The ::first-line pseudo-element targets the first line of text within an element. 
+    This is often used for styling the first line differently from the rest of the content.
+
+    ::selection
+    The ::selection pseudo-element styles the part of the document that the user has highlighted (selected). 
+    It's often used to customize the text selection color.
+    
+
+    ::marker
+
+    The ::marker pseudo-element targets the marker of a list item (such as the bullet point or number in ordered and unordered lists). 
+    It allows you to style the marker itself.
+
+    ::placeholder
+
+    The ::placeholder pseudo-element targets the placeholder text inside form fields 
+    (like <input> or <textarea> elements) before the user types anything.
+
+    
+    
+    -->
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href ="./assets/css/style.css" rel="stylesheet">
+</head>
+<body bgcolor="cyan">
+    <h1 align="center">Hello world</h1> <!-- align depracated attribute -->
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi, sequi ipsa eos quia doloremque distinctio nobis facere nisi fuga laborum hic accusantium.
+    </p>
+
+    <h1>Lorem, ipsum.</h1>  <!-- h1 is a block level element -->
+    <span>Lorem, ipsum.</span>  <!-- span is a inline level element -->
+
+    <!------------------------- Inline documentation  also klnown as comments --------------------------------->
+    <header>
+        <nav>hello</nav>
+    </header>
+    <aside>
+        <nav>
+            hello
+        </nav>
+    </aside>
+    <main>
+        <!--Landing pages-->
+        <section>
+            <h1>Branding page</h1>
+        </section>
+        <section>
+            <h1>About</h1>
+        </section>
+    </main>
+   <footer>
+    <h1>Footer</h1>
+   </footer>
+   <video src="/assets/videos/WhatsApp Video 2024-10-29 at 12.27.45_8ff03be9.mp4" controls></video>
+   <br>
+   <br>
+   <audio src="/assets/audios/birds.mp3" controls></audio>
+   
+   <!--Entities-->
+   <h1>&copy;</h1>
+   <h1>&spades;</h1>
+   <h1>&acE;</h1>
+
+   <iframe src="scroll.htm" frameborder="0"></iframe>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/45XRsA8M3_I?si=PrGzvMyo1d88flEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br>
+<br>
+   Hello<meter value=0.1></meter>
+   <br>
+<br>
+   World<meter value=0.4></meter>
+   <br>
+<br>
+   Type <meter value=0.2></meter>
+   <br>
+<br>
+  Int  <meter value=0.2></meter>
+   <br>
+<br>
+  hi <meter value=0.9></meter>
+
+
+
+  <!-------------------------------------FORM ELEMENTS------------------------------>
+
+  <!--
+  form attribuites
+
+
+
+
+
+  LABEL
+  INPUT
+  BUTTON
+  select option group
+  textarea
+  output
+  datalist
+  fieldlist/legend
+
+  input attributes:
+
+  type
+  value
+  name
+  required
+  readonly
+  disabled
+  min
+  max
+  minlength
+  maxlength
+
+  
+  -->
+  
+
+
+
+<br>
+<br>
+<br>
+<br>
+<!--
+
+Form methods:-
+GET (Standard HTML Form Method)
+Purpose: Retrieve or query data from the server.
+How it works: The form data is appended to the URL as query parameters.
+
+POST (Standard HTML Form Method)
+Purpose: Submit data to the server to create or update resources.
+How it works: The form data is sent in the body of the HTTP request.    
+
+
+
+-->
+<div>
+
+<form action="" enctype="application/x-www-form-urlencoded" autocomplete="off" autocapitalize="on">
+<!-- <form action="" enctype="multipart/form-data"></form> -->
+ <div>
+    <label for="username" id="username">Username</label>
+    <input type="text" name="username">
+ </div>
+
+
+    <br>
+    <br>
+<div>
+    <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd"
+  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+</div>
+<br>
+<br>
+<br>
+<div>
+    <label for="Gender">Gender:</label>
+    <input type="radio" name="Gender" id="male" checked> 
+    <label for="Male">Male:</label>
+    <input type="radio" name="Gender" id="female">
+    <label for="Female">Female</label>
+</div>
+<br>
+<br>
+
+<div>
+<label for="email">E-mail</label>
+<input type="email" name="email" id="email" placeholder="Enter your e-mail" autofocus size="50">
+</div>
+<br>
+
+<div>
+    <label for="Age">Age</label>
+    <input type="number" name="age" id="age" placeholder="Enter your age" min=18 max="60" step="20">
+    </div>
+
+
+
+    
+<br>
+<br>
+<div>
+    <label for="upload">Upload your resume</label>
+    <input type="file" name="file" id="resume" accept=".pdf">
+</div>
+<br>
+<br>
+<div>
+    <input type="checkbox" name="subscribe" value="yes">
+    <label for="Subscribe">Subscribe to our newsletter</label>
+</div>  
+<br>
+<br>
+
+<fieldset>
+    <legend>Biodata</legend>
+
+<div>
+    <label for="reset">Reset</label>
+    <input type="reset" name="reset" id="resetbtn">
+</div>
+
+
+
+<br>
+<br>
+<fieldset disabled>
+    <legend>Color</legend>
+<div>
+    <label for="color">Choose your color</label>
+    <input type="color" name="color" id="colorbtn">
+</div>
+<br>
+<br>
+<div>
+    <label for="submit">Submit</label>
+    <input type="submit" name="submit" id="submit">
+</div>
+</fieldset>
+<br>
+
+
+<div>
+    <label for="search">Search:</label>
+    <input type="search" name="query">
+</div>
+
+<!-- <div>
+    <label for="image">image</label>
+    <input type="image" name="image" src="./assets/images/Screenshot (98).png">
+</div> -->
+
+<div>
+    <label for="slide">Slide</label>
+    <input type="range" name="range" id="range">
+</div>
+
+</fieldset>
+<br>
+
+<!-------------------------------TEXT AREA---------------------->
+<div>
+<textarea name="comments" rows="10" cols="50" ></textarea>
+</div>
+
+<div>
+<label for="course">Select your course: </label>
+<select>
+    <option value="ComputerScience">Computer Science</option>
+    <option value="BBA">BBA</option>
+    <option value="BCom">BCom</option>
+    <option value="Maths">Maths</option>
+</select>
+</div>
+
+<div>
+    <label for="course">Select your Domain </label>
+    <select>
+        <option value="Java" disabled selected>Java</option>
+        <option value="Dotnet">Dotnet</option>
+        <option value="Python">Python</option>
+        <option value="Mern">Mern</option>
+        <optgroup label="Select Course" disabled selected>
+            <option value="ComputerScience" disabled>Computer Science</option>
+            <option value="BBA">BBA</option>
+            <option value="BCom">BCom</option>
+            <option value="Maths">Maths</option>
+        </optgroup>
+    </select>
+    </div>
+
+
+    
+<p>
+</p>
+</form>
+
+</div>
+
+<datalist id="mylist">
+    <option value="hi">
+    <option value="hello">
+    <option value="world">
+    <option value="ss">
+    <option value="ho">
+</datalist>
+
+<input list="mylist">
+<br>
+<br>
+
+<div>
+
+<datalist id="indianStates">
+<script>
+
+    let indianStates = [
+  "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", 
+  "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", 
+  "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", 
+  "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", 
+  "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", 
+  "West Bengal"
+];
+
+for (const state of indianStates) {
+    
+    document.write(`<option value="${state}">`);
+
+}
+
+// console.log(indianStates);
+
+</script>
+</datalist>
+<p>Select State: </p>
+<input list="indianStates">
+</div>
+
+<form>
+<label for="range">Range</label>
+<input type="range"  oninput="res.value=this.value">
+<output name="res" for="a"></output>
+</form>
+ 
+
+</body>
+</html>
+
+<!-- ---------------------------CSS------------------------>
+
+ <!-- selector{
+          declaration 1
+          property:value;
+          declration 2
+          property:value;
+}
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--xHTML-->
+
+<!--
+Must be ended
+<closing tags are must>
+<!DOCTYPE> is mandatory
+The xmlns attribute in <html> is mandatory
+<html>, <head>, <title>, and <body> are mandatory
+Elements must always be properly nested
+Elements must always be closed
+Elements must always be in lowercase
+Attribute names must always be in lowercase
+Attribute values must always be quoted
+Attribute minimization is forbidden
+
+
+-->
+
+<!--Webservices -->
